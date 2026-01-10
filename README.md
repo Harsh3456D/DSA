@@ -15,6 +15,21 @@ The project includes a **Matplotlib Dashboard** that visualizes the exponential 
 ## 📊 Current Benchmarks
 *Data based on 9-digit brute-force stress tests.*
 
+
+No. of Digits,Python Time (s),JavaScript Time (s),C++ Time (s)
+1,0.00010,0.000013,0.0000057
+2,0.00030,0.000048,0.000013
+3,0.00057,0.000063,0.000031
+4,0.0030,0.00037,0.00023
+5,0.028,0.0056,0.0042
+6,0.27,0.022,0.025
+7,3.14,0.16,0.27
+8,32.34,1.54,2.8
+9,304.3,15.7,29.1
+
+
+
+
 | Language | Complexity Trend | Performance Tier |
 | :--- | :--- | :--- |
 | **C++** | Extremely Linear | ⚡ **Fastest** (Compiled machine code) |
