@@ -6,7 +6,7 @@ using namespace std;
 void selectionSort(int arr[], int size){
     for (int i=0; i < size; i++) {
         int subindex = i;
-        for (int j=i; j < size; j++) {
+        for (int j=i+1; j < size; j++) {
             if (arr[j] < arr[subindex]){
                 subindex = j;
             }
@@ -25,5 +25,6 @@ int main(){
     int size = sizeof(myarr) / sizeof(myarr[0]);
     selectionSort(myarr, size);
     return 0;
+
 
 }
