@@ -1,4 +1,4 @@
-# 🔐 Time Complexity Dashboard Edition V1.1
+# 🔐 Time Complexity Dashboard Edition V1.2
 
 A research initiative analyzing the performance, efficiency, and time complexity of brute-force algorithms across different programming languages. This project visualizes how Python, JavaScript, Java and C++ handle computational stress during Several scenarios.
 
@@ -33,6 +33,7 @@ The project includes a **Matplotlib Dashboard** that visualizes the exponential 
 **Note: The data from Dashboard.py indicates that while C++ is faster for smaller inputs (1-5 digits), the JavaScript
 implementation outperformed C++ in this specific benchmark for larger inputs (6-9 digits).**
 
+**Note: Dashboard will be updated with data.**
 
 | Language | Complexity Trend | Performance Tier |
 | :--- | :--- | :--- |
