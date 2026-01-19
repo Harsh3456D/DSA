@@ -9,6 +9,7 @@ Understanding the speed at which passwords can be cracked is vital for modern cy
 * **Python**: Interpreted, ease-of-use focus.
 * **Node.js (JavaScript)**: V8 engine, JIT compiled.
 * **C++**: Compiled, low-level optimization.
+* **JAVA**: Compiled on VM, low-level optimization.
 
 The project includes a **Matplotlib Dashboard** that visualizes the exponential growth of time complexity as password length increases ($O(10^n)$).
 
@@ -38,7 +39,7 @@ implementation outperformed C++ in this specific benchmark for larger inputs (6-
 | **C++** | Extremely Linear | ⚡ **Fastest** (Compiled machine code) |
 | **Node.js** | Optimized V8 | 🚀 **High Performance** (Surprising efficiency) |
 | **Python** | Exponential Lag | 🐢 **Slower** (Overhead of interpreter) |
-| **Java** | Will be updated | pending |
+| **Java** | Extremely Fast | **Fast** (Java VM) |
 
 
 ## 🛠️ Tech Stack & Requirements
@@ -47,6 +48,7 @@ implementation outperformed C++ in this specific benchmark for larger inputs (6-
 * **Python 3.x** (Required for the Dashboard)
 * **C++** (MinGW / G++ Compiler)
 * **Node.js** (Runtime environment)
+* **Java** (JAVA VM Runtime environment)
 
 ### Libraries
 * `matplotlib` (Python)
@@ -61,7 +63,8 @@ implementation outperformed C++ in this specific benchmark for larger inputs (6-
 ├── crack.js           # JavaScript Implementation (V8 Engine)
 ├── crack.py           # Python Implementation (Baseline)
 ├── Dashboard.py       # Data Visualization Tool (Matplotlib)
-└── crack.exe          # Compiled C++ Executable
+└── crack.exe         # Compiled C++ Executable
+└── crack.java         # JAVA Implementation (Fast)
 ```
 
 ## 📈 Roadmap & Future Updates
