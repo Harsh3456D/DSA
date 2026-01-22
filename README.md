@@ -37,9 +37,9 @@ implementation outperformed C++ in this specific benchmark for larger inputs (6-
 
 | Language | Complexity Trend | Performance Tier |
 | :--- | :--- | :--- |
-| **C++** | Extremely Linear | ⚡ **Fastest** (Compiled machine code) |
-| **Node.js** | Optimized V8 | 🚀 **High Performance** (Surprising efficiency) |
-| **Python** | Exponential Lag | 🐢 **Slower** (Overhead of interpreter) |
+| **C++** | Extremely Linear |  **Fastest** (Compiled machine code) |
+| **Node.js** | Optimized V8 |  **High Performance** (Surprising efficiency) |
+| **Python** | Exponential Lag |  **Slower** (Overhead of interpreter) |
 | **Java** | Extremely Fast | **Fast** (Java VM) |
 
 
