@@ -1,4 +1,4 @@
-# 🔐 Time Complexity Dashboard Edition V1.2
+# 🔐 Time Complexity Dashboard Edition V1.3
 
 A research initiative analyzing the performance, efficiency, and time complexity of algorithms and non algorithmic scripts across different programming languages. This project visualizes how Python, JavaScript, Java and C++ handle computational stress during Several scenarios.
 
